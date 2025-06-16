@@ -13,6 +13,6 @@ A highly modular, efficient, and annotation-aware patch extraction pipeline for 
 ## Usage
 ```bash
 pip install -e .
-tile-extract --config config/example_config.yaml
+tile-extract --config config/unified_patch_config.yaml
 ```
 """
