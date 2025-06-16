@@ -1,0 +1,24 @@
+data:
+  annotation_paths:
+  - annotations/slide_1.json
+  - annotations/slide_2.json
+  save_dirs:
+  - output/slide_1
+  - output/slide_2
+  wsi_paths:
+  - your_slide_1.svs
+  - your_slide_2.svs
+extraction:
+  level: 0
+  patch_size: 256
+  stride: 256
+masking:
+  use_annotation: true
+  use_otsu: true
+  use_pen_filter: true
+normalization:
+  method: macenko_cellvit
+  reference_path: core/reference_vectors/cellvit_he.json
+  use_normalization: true
+reader:
+  backend: openslide
