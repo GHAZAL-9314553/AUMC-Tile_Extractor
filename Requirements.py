@@ -1,0 +1,10 @@
+numpy
+Pillow
+PyYAML
+scikit-image
+rasterio
+shapely
+torch
+torchvision
+h5py
+cucim
